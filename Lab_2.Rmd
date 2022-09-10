@@ -1,0 +1,7 @@
+Seteo de data sets
+```{r}
+install.packages("nycflights13")
+library("nycflights13")
+nycflights13::
+```
+
