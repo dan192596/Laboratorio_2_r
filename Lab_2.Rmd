@@ -1,7 +1,22 @@
-Seteo de data sets
+Importación y seteo de paquete nycflights13
+
+
 ```{r}
 install.packages("nycflights13")
 library("nycflights13")
-nycflights13::
+
+flights <- nycflights13::flights
+airports <- nycflights13::airports
+planes <- nycflights13::planes
+airlines <- nycflights13::airlines
+weather <- nycflights13::weather
+
+
+
+View(flights)
+View(airports)
+View(planes)
+View(airlines)
+View(weather)
 ```
 
